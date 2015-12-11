@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': [
+  extends: [
       'eslint-config-rapid7/rules/best-practices',
       'eslint-config-rapid7/rules/errors',
       'eslint-config-rapid7/rules/legacy',
@@ -7,14 +7,14 @@ module.exports = {
       'eslint-config-rapid7/rules/style',
       'eslint-config-rapid7/rules/variables'
   ],
-  'env': {
-    'browser': true,
-    'node': true,
-    'amd': false,
-    'mocha': false,
-    'jasmine': false
+  env: {
+    browser: true,
+    node: true,
+    amd: false,
+    mocha: false,
+    jasmine: false
   },
-  'ecmaFeatures': {},
-  'globals': {},
-  'rules:': {}
+  ecmaFeatures: {},
+  globals: {},
+  rules: {}
 };
