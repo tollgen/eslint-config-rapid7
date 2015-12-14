@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'magic-num': [2, {
+    'static-magic-number': [2, {
         ignore: [0, 1, 2, -1],
         detectObjects: true,
         enforceConst: true,
