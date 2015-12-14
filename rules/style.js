@@ -11,7 +11,7 @@ module.exports = {
       allowArrayEnd: true
     }],
     'max-nested-callbacks': [1, 3],
-    'new-parens': true,
+    'new-parens': 2,
     'newline-after-var': [2, 'always'],
     'no-array-constructor': 2,
     'no-inline-comments': 1,
