@@ -24,7 +24,7 @@ module.exports = {
     'operator-assignment': [2, 'always'],
     'operator-linebreak': [2, 'after'],
     'quote-props': [2, 'as-needed'],
-    'quote': [2, 'single'],
+    'quotes': [2, 'single'],
     'space-unary-ops': 2
   }
 };
