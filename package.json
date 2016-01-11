@@ -1,44 +1,11 @@
 {
-  "_args": [
-    [
-      "eslint-config-rapid7",
-      ""
-    ]
-  ],
-  "_from": "eslint-config-rapid7@*",
-  "_id": "eslint-config-rapid7@2.0.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/eslint-config-rapid7",
-  "_nodeVersion": "5.1.0",
-  "_npmUser": {
-    "email": "btesser@rapid7.com",
-    "name": "btesser"
-  },
-  "_npmVersion": "3.3.12",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "eslint-config-rapid7",
-    "raw": "eslint-config-rapid7",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "*",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/eslint-config-rapid7/-/eslint-config-rapid7-2.0.0.tgz",
-  "_shasum": "d9b32550fdced6174b067dc96d146fc0ec5fa4c3",
-  "_shrinkwrap": null,
-  "_spec": "eslint-config-rapid7",
-  "_where": "",
+
   "author": {
     "name": "Ben Tesser",
     "email": "btesser@rapid7.com"
   },
   "bugs": {
-    "url": "https://github.com/rapid7/javascript/issues"
+    "url": "https://github.com/rapid7/esling-config-rapid7/issues"
   },
   "contributors": [
     {
@@ -48,7 +15,7 @@
   ],
   "dependencies": {
     "eslint-config-airbnb": "2.0.0",
-    "eslint-plugin-rapid7": "0.0.1"
+    "eslint-plugin-rapid7": "git@github.com:rapid7/eslint-plugin-rapid7.git#package-json-fix"
   },
   "description": "Rapid7's ESLint config, following our styleguide",
   "devDependencies": {
@@ -59,11 +26,7 @@
     "tape": "^4.2.2"
   },
   "directories": {},
-  "dist": {
-    "shasum": "d9b32550fdced6174b067dc96d146fc0ec5fa4c3",
-    "tarball": "http://registry.npmjs.org/eslint-config-rapid7/-/eslint-config-rapid7-2.0.0.tgz"
-  },
-  "homepage": "https://github.com/rapid7/javascript-style-guide",
+  "homepage": "https://github.com/rapid7/eslint-config-rapid7",
   "keywords": [
     "rapid7",
     "config",
@@ -88,11 +51,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rapid7/javascript-style-guide.git"
+    "url": "git+https://github.com/rapid7/eslint-config-rapid7.git"
   },
-  "scripts": {
-    "lint": "eslint .",
-    "test": "babel-tape-runner ./test/test-*.js"
-  },
-  "version": "2.0.0"
+  "version": "0.0.1"
 }

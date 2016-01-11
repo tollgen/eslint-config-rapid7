@@ -11,7 +11,7 @@ module.exports = {
       allowArrayEnd: true
     }],
     'max-nested-callbacks': [1, 3],
-    'new-parens': true,
+    'new-parens': 2,
     'newline-after-var': [2, 'always'],
     'no-array-constructor': 2,
     'no-inline-comments': 1,
@@ -24,7 +24,7 @@ module.exports = {
     'operator-assignment': [2, 'always'],
     'operator-linebreak': [2, 'after'],
     'quote-props': [2, 'as-needed'],
-    'quote': [2, 'single'],
+    'quotes': [2, 'single'],
     'space-unary-ops': 2
   }
 };
