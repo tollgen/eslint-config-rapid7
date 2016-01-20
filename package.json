@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "eslint-config-airbnb": "2.0.0",
-    "eslint-plugin-rapid7": "git@github.com:rapid7/eslint-plugin-rapid7.git#package-json-fix"
+    "eslint-plugin-rapid7": "5.0.1"
   },
   "description": "Rapid7's ESLint config, following our styleguide",
   "devDependencies": {
@@ -53,5 +53,5 @@
     "type": "git",
     "url": "git+https://github.com/rapid7/eslint-config-rapid7.git"
   },
-  "version": "0.0.1"
+  "version": "0.0.3"
 }
