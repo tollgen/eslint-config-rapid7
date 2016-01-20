@@ -25,7 +25,7 @@ module.exports = {
       var: 'always',
       let: 'always',
       const: 'never'
-    }]
+    }],
     'operator-assignment': [2, 'always'],
     'operator-linebreak': [2, "before", { "overrides": { "?": "after" } }],
     'quote-props': [2, 'as-needed'],
