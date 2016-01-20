@@ -6,7 +6,7 @@ module.exports = {
       'eslint-config-rapid7/rules/node',
       'eslint-config-rapid7/rules/style',
       'eslint-config-rapid7/rules/variables'
-  ],
+  ].map(require.resolve),
   env: {
     browser: true,
     node: true,

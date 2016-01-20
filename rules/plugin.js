@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'eslint-plugin-rapid7'
+  ],
   rules: {
     'static-magic-numbers': [2, {
         ignore: [0, 1, 2, -1],
