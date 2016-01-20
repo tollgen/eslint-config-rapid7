@@ -21,8 +21,13 @@ module.exports = {
       maxEOF: 1
     }],
     'no-unneeded-ternary': 2,
+    'one-var': [2, {
+      var: 'always',
+      let: 'always',
+      const: 'never'
+    }]
     'operator-assignment': [2, 'always'],
-    'operator-linebreak': [2, 'after'],
+    'operator-linebreak': [2, "before", { "overrides": { "?": "after" } }],
     'quote-props': [2, 'as-needed'],
     'quotes': [2, 'single'],
     'space-unary-ops': 2
