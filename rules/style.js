@@ -22,6 +22,8 @@ module.exports = {
       maxEOF: 1
     }],
     'no-unneeded-ternary': 2,
+    // require padding inside curly braces
+    'object-curly-spacing': [2, 'never'],
     'one-var': [2, {
       var: 'always',
       let: 'always',
