@@ -12,6 +12,10 @@ module.exports = {
       allowArrayEnd: true
     }],
     'max-nested-callbacks': [1, 3],
+    'new-cap': [2, {
+      newIsCap: true,
+      properties: false
+     }],
     'new-parens': 2,
     'newline-after-var': [2, 'always'],
     'no-array-constructor': 2,
