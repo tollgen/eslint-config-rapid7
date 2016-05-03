@@ -1,6 +1,9 @@
 module.exports = {
   rules: {
-    'indent': [2, 2, { "SwitchCase": 1, "VariableDeclarator": 2 }],
+    'indent': [2, 2, { 
+      "SwitchCase": 1, 
+      "VariableDeclarator": 2 
+    }],
     'lines-around-comment': [1, {
       beforeBlockComment: true,
       beforeLineComment: true,

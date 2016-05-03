@@ -6,6 +6,6 @@ module.exports = {
       number: true,
       boolean: false
     }],
-    'wrap-iife': [2, "outside"]
+    'wrap-iife': [2, 'outside']
   }
 };
