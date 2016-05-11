@@ -1,16 +1,19 @@
 {
-
   "author": {
-    "name": "Ben Tesser",
-    "email": "btesser@rapid7.com"
+    "name": "Tony Quetano",
+    "email": "tony_quetano@rapid7.com"
   },
   "bugs": {
     "url": "https://github.com/rapid7/esling-config-rapid7/issues"
   },
   "contributors": [
     {
-      "name": "Ben Tesser",
-      "email": "btesser@rapid7.com"
+      "name": "Tony Quetano",
+      "email": "tony_quetano@rapid7.com"
+    },
+    {
+      "name": "David Greene",
+      "email": "david_greene@rapid7.com"
     }
   ],
   "dependencies": {
@@ -52,5 +55,5 @@
     "type": "git",
     "url": "git+https://github.com/rapid7/eslint-config-rapid7.git"
   },
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
