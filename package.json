@@ -48,7 +48,7 @@
   "name": "eslint-config-rapid7",
   "optionalDependencies": {},
   "peerDependencies": {
-    "eslint": ">=1.0.0"
+    "eslint": ">=2.0.0"
   },
   "readme": "ERROR: No README data found!",
   "repository": {
