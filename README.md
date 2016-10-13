@@ -2,9 +2,6 @@
 
 This package provides Rapid7's .eslintrc as an extensible shared config.
 
-The master branch coincides to the 1.x.x and beyond versions, which are compatible with ESLint 2.x.x. If 
-you are still using ESLint 1.x.x, use the 0.x.x versions (latest version is 0.0.15).
-
 ## Usage
 
 We export five ESLint configurations for your usage.
