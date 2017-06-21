@@ -75,7 +75,11 @@ module.exports = {
       functions: 'always',
       keywords: 'always'
     }],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, {
+      anonymous: 'never',
+      asyncArrow: 'always',
+      named: 'never'
+    }],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, {

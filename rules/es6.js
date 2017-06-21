@@ -30,7 +30,7 @@ module.exports = {
       globalReturn: true,
       experimentalObjectRestSpread: true
     },
-    ecmaVersion: 6,
+    ecmaVersion: 2017,
     sourceType: 'module'
   },
   rules: {
@@ -55,7 +55,11 @@ module.exports = {
     'object-shorthand': [2, 'always', {
       'avoidQuotes': true
     }],
+    'prefer-arrow-callback': [2, {
+      allowNamedFunctions: true
+    }],
     'prefer-spread': 1,
+    'prefer-template': 2,
     'rest-spread-spacing': [2, 'never'],
     'template-curly-spacing': [2, 'never'],
     'yield-star-spacing': [2, 'after']
