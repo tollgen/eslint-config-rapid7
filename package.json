@@ -17,12 +17,13 @@
     }
   ],
   "dependencies": {
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-react": "^7.2.0"
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-rapid7": "^7.3.1",
+    "eslint-plugin-react": "^7.10.0"
   },
   "description": "Rapid7's ESLint config, following our styleguide",
   "devDependencies": {
-    "eslint": "^4.4.1"
+    "eslint": "^5.0.1"
   },
   "directories": {},
   "homepage": "https://github.com/rapid7/eslint-config-rapid7",
@@ -45,11 +46,11 @@
   "name": "eslint-config-rapid7",
   "optionalDependencies": {},
   "peerDependencies": {
-    "eslint": "^3.0.0 || ^4.0.0"
+    "eslint": "^5.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rapid7/eslint-config-rapid7.git"
   },
-  "version": "2.11.1"
+  "version": "3.0.0-16"
 }

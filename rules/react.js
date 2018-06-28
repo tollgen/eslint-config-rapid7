@@ -1,13 +1,9 @@
-'use strict';
-
 module.exports = {
-  plugins: [
-    'react'
-  ],
+  plugins: ['react'],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   rules: {
     'jsx-quotes': [2, 'prefer-double'],
@@ -17,24 +13,26 @@ module.exports = {
     'react/jsx-closing-tag-location': 2,
     'react/jsx-curly-spacing': [2, 'never'],
     'react/jsx-equals-spacing': [2, 'never'],
-    'react/jsx-filename-extension': [2, {
-      'extensions': [
-        '.js'
-      ]
-    }],
+    'react/jsx-filename-extension': [
+      2,
+      {
+        extensions: ['.js'],
+      },
+    ],
     'react/jsx-first-prop-new-line': 2,
     'react/jsx-key': 2,
-    'react/jsx-max-props-per-line': [2, {
-      'maximum': 1
-    }],
+    'react/jsx-max-props-per-line': [
+      2,
+      {
+        maximum: 1,
+      },
+    ],
     'react/jsx-no-bind': 2,
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-target-blank': 2,
     'react/jsx-no-undef': 1,
     'react/jsx-pascal-case': 2,
-    'react/jsx-sort-props': [2, {
-      ignoreCase: true
-    }],
+    'react/jsx-sort-props': 2,
     'react/jsx-uses-react': 2,
     'react/jsx-uses-vars': 2,
     'react/jsx-wrap-multilines': 2,
@@ -47,14 +45,50 @@ module.exports = {
     'react/react-in-jsx-scope': 2,
     'react/require-render-return': 2,
     'react/self-closing-comp': 2,
-    'react/sort-comp': [1, {
-      'order': [
-        'lifecycle',
-        'everything-else',
-        'render'
-      ]
-    }],
+    'react/sort-comp': [
+      1,
+      {
+        groups: {
+          lifecycle: [
+            'displayName',
+            'propTypes',
+            'contextTypes',
+            'childContextTypes',
+            'defaultProps',
+            'getDefaultProps',
+            'getChildContext',
+            'getInitialState',
+            'state',
+            'constructor',
+            'getDerivedStateFromProps',
+            'componentWillMount',
+            'UNSAFE_componentWillMount',
+            'componentDidMount',
+            'componentWillReceiveProps',
+            'UNSAFE_componentWillReceiveProps',
+            'shouldComponentUpdate',
+            'componentWillUpdate',
+            'UNSAFE_componentWillUpdate',
+            'getSnapshotBeforeUpdate',
+            'componentDidUpdate',
+            'componentDidCatch',
+            'componentWillUnmount',
+            'statics',
+          ],
+          rendering: ['/^render.+$/', 'render'],
+        },
+        order: [
+          'type-annotations',
+          'lifecycle',
+          'static-methods',
+          'instance-variables',
+          'instance-methods',
+          'everything-else',
+          'rendering',
+        ],
+      },
+    ],
     'react/style-prop-object': 2,
-    'react/void-dom-elements-no-children': 2
-  }
+    'react/void-dom-elements-no-children': 2,
+  },
 };
