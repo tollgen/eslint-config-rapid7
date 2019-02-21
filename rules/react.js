@@ -5,6 +5,11 @@ module.exports = {
       jsx: true,
     },
   },
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   rules: {
     'jsx-quotes': [2, 'prefer-double'],
 
