@@ -1,4 +1,9 @@
 module.exports = {
+  extends: [
+    'eslint:recommended',
+    'plugin:md/recommended',
+    'plugin:md/prettier',
+  ].map(require.resolve),
   rules: {
     'arrow-body-style': [2, 'as-needed'],
     'arrow-parens': [2, 'always'],

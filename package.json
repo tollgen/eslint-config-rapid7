@@ -18,6 +18,9 @@
   ],
   "dependencies": {
     "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-md": "1.0.19",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react-hooks": "4.0.8",
     "eslint-plugin-rapid7": "^8.0.3",
     "eslint-plugin-react": "^7.10.0"
   },
