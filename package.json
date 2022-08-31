@@ -16,6 +16,10 @@
   "devDependencies": {
     "eslint": "^7.17.0"
   },
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^8.0.0"
+  },
   "homepage": "https://github.com/rapid7/eslint-config-rapid7",
   "keywords": [
     "rapid7",
