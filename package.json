@@ -9,7 +9,6 @@
   ],
   "dependencies": {
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-rapid7": "^8.0.3",
     "eslint-plugin-react": "^7.31.1"
   },
   "description": "Rapid7's ESLint config, following our styleguide",
