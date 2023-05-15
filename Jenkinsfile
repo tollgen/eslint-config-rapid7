@@ -13,6 +13,3 @@ pipeline {
     }
 
 }
-
-git config --global user.name "tollgen"
-git config --global user.email "tollgen@toll.net"
